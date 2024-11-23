@@ -2,8 +2,8 @@
 
 <br>
 get_weather_data >> process_data >> upload_to_blob
-
 <br>
+
 <p>The data for a specific latitude and longitude is fetched from weather API. Nextly, it is transformed locally using Python. Finally, uploaded to Azure Blob storage as json.
 
   
