@@ -63,11 +63,11 @@ services:
       - data:/data
     environment: *airflow_environment
     command: scheduler
-  events_api:
-    build: ./docker/events-api
-    image: manning-airflow/events-api
-    ports:
-      - "5000:5000"
+ # events_api:
+ #   build: ./docker/events-api
+ #   image: manning-airflow/events-api
+ #   ports:
+ #     - "5000:5000"
 
 volumes:
   data:
